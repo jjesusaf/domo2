@@ -1,0 +1,158 @@
+body{
+  background-color: black;
+}
+
+.Navbar{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+ 
+}
+
+.ulNav{
+  position: absolute;
+  top: 82.5px;
+  margin: 0;
+  padding: 0;
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding: 0;
+  height: calc(100vh - 82.5px);
+  flex-direction: column;
+  width: 100%;
+}
+
+.liNav{
+  list-style: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+/* identical to box height */
+  letter-spacing: 0.01em;
+  color: #E5E5E5;
+}
+
+.btn-launch{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 24px 16px;
+  gap: 5.4px;
+  width: 140px;
+  height: 55px;
+  background: #FFFFFF;
+  border: 1px solid #F986B7;
+  border-radius: 200px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+/* identical to box height */
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #F986B7;
+}
+
+.visibility{
+  display: flex;
+}
+
+#svg-domo2{
+  display: inline-block;
+  width: 37px;
+  height: 35px;
+}
+
+#svg-domo{
+  width: 156px;
+  height: 38px;
+}
+
+.liNav:hover{
+  border-bottom: 1px solid #E5E5E5 ;
+  cursor: pointer;
+}
+
+
+@media (min-width: 900px) { 
+  .Navbar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+   
+  }
+  
+  .ulNav{
+    position: unset;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .liNav{
+    list-style: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+  /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #E5E5E5;
+  }
+  
+  .btn-launch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px 16px;
+    gap: 8px;
+    width: 170px;
+    height: 68px;
+    background: #FFFFFF;
+    border: 1px solid #F986B7;
+    border-radius: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #F986B7;
+  }
+
+  #svg-domo2{
+    display: none;
+  }
+}
+
+
+
