@@ -163,34 +163,34 @@ body{
 
 
 #NFTCollection{
-  width: 261.2px;
-  height: 100.064px;
+  width: 195.9px;
+  height: 75.048px;
   position: relative;
   z-index: 100;
-  top: 19px;
-  left: 83px;
+  top: 16px;
+  left: 5px;
 }
 
 #svg-glass{
   position: relative;
-  width: 303px;
-  height: 68px;
-  bottom: 50px;
-  left: 59px;
+  width: 227.1px;
+  height: 51px;
+  bottom: 38px;
+  left: 2px;
 }
 
 .header{
   display: flex;
   align-items: center;
   justify-content: center;
-
+  text-align: center;
 }
 
 .header-a>h2, h1{
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 90%;
   /* or 32px */ 
   text-transform: uppercase;
@@ -201,7 +201,7 @@ body{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 30px;
   color: #FFFFFF;
 }
@@ -220,7 +220,7 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px 24px 16px;
+  padding: 10px 20px 12px;
   gap: 8px;
   background: linear-gradient(96.53deg, #F5247D 20.39%, rgba(249, 134, 183, 0.92) 93.69%);
   border: 1px solid #F986B7;
@@ -229,7 +229,7 @@ body{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 36px;
 /* identical to box height, or 150% */
   letter-spacing: -1px;
@@ -261,6 +261,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: unset;
+    
   }
   
   .header-a>h2, h1{
@@ -272,6 +274,7 @@ body{
     /* or 32px */ 
     text-transform: uppercase;
     color: #FFFFFF;
+    
   }
   
   .header-a>p{
@@ -281,6 +284,7 @@ body{
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
+    
   }
 }
 
