@@ -163,20 +163,20 @@ body{
 
 
 #NFTCollection{
+  position: absolute;
   width: 195.9px;
   height: 75.048px;
-  position: relative;
   z-index: 100;
-  top: 16px;
-  left: 5px;
+  top: 0;
+  left: 0;
 }
 
 #svg-glass{
-  position: relative;
+  position: absolute;
   width: 227.1px;
   height: 51px;
-  bottom: 38px;
-  left: 2px;
+  top: 0;
+  left: 0;
 }
 
 .header{
@@ -187,10 +187,16 @@ body{
 }
 
 .picture1{
+  position: absolute;
+  top: 0;
+  left: 0;
   max-width: 100%;
 }
 
 .picture2{
+  position: absolute;
+  top: 0;
+  left: 0;
   max-width: 100%;
 }
 
@@ -215,7 +221,7 @@ body{
 }
 
 .header-b{
-  width: 100%;
+  position: relative;
   
 }
 

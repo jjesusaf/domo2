@@ -534,6 +534,7 @@ const Home = () => {
                             </clipPath>
                         </defs>
                     </svg>
+
                 </section>
                 <div className='degree'>
                 </div>
